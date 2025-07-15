@@ -32,7 +32,6 @@ public class Program {
                 System.out.print("O que você quer adicionar? ");
                 util.ToDoList.adicionarNaLista(sc.nextLine());
                 sc.nextLine();
-
             }
             else if (option == 3) {
                 util.ToDoList.verLista();
