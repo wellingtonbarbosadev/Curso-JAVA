@@ -44,7 +44,8 @@ public class Program {
                 String itemComprado = sc.nextLine();
                 ItemDeCompra.marcarComoComprado(itemComprado);
                 sc.nextLine();
-
+            } else if (option == 9) {
+                break;
             }
         }
     }
