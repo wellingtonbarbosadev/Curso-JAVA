@@ -47,7 +47,5 @@ public class Program {
         System.out.println();
         System.out.println("Lista de funcionários: ");
         Employeers.listarFuncionarios();
-
     }
-
 }
