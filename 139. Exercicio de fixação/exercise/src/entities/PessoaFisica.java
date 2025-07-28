@@ -21,13 +21,13 @@ public class PessoaFisica extends Contas {
 
     @Override
     public Double total() {
-        Double imposto;
+        double imposto;
 
         if (getRendaAnual() > 20000.0) {
-            imposto = (getRendaAnual() * 0.25) - (gastosComSaude * 0.5);
+            imposto = (getRendaAnual() * 0.25) - (getGastosComSaude() * 0.5);
         }
         else {
-            imposto = (getRendaAnual() * 0.15) - (gastosComSaude * 0.5);
+            imposto = (getRendaAnual() * 0.15) - (getGastosComSaude() * 0.5);
         }
 
         return imposto;
